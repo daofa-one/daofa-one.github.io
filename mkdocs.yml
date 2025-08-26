@@ -3,17 +3,17 @@ site_description: "The Way Resonates — philosophy meets technology."
 site_url: https://daofa.one
 repo_url: https://github.com/daofa-one/daofa-one.github.io
 copyright:
-  '© {year} Daofa.one'
+  '© 2025 Daofa.one'
 
 theme:
   name: material
   language: en
   features:
     - navigation.tabs
-    - navigation.sections
+    # - navigation.sections
     - navigation.top
     - content.code.copy
-    - content.action.edit
+    # - content.action.edit
     - search.suggest
     - search.share
   palette:
