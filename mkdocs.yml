@@ -17,15 +17,27 @@ theme:
     - search.suggest
     - search.share
   palette:
-    # Default (auto-switch with OS)
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: purple
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: purple
+    ## Default (auto-switch with OS)
+    #- media: "(prefers-color-scheme: light)"
+    #  scheme: default
+    #  primary: indigo
+    #  accent: purple
+    #- media: "(prefers-color-scheme: dark)"
+    #  scheme: slate
+    #  primary: indigo
+    #  accent: purple
+    - scheme: slate           # 🌌 primary scheme (dark)
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+    - scheme: default         # ☀️ secondary scheme (light)
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode    
   logo: assets/logo.svg           # put a simple mark here (optional)
   favicon: assets/favicon.png     # 512x512 png
 
@@ -58,6 +70,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
   - pymdownx.superfences:
@@ -69,3 +84,5 @@ markdown_extensions:
 extra_css:
   - assets/extra.css
 
+extra_javascript:
+  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js

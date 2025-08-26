@@ -1,12 +1,11 @@
 ---
 title: Daofa.one — The Way Resonates
 ---
-
 <div align="center">
 
-**Daofa.one**
-**The Way Follows Nature.**
-*Where Tao meets technology.*
+The Way Follows Nature.
+
+Where Tao meets technology.
 
 </div>
 

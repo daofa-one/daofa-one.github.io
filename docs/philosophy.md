@@ -14,9 +14,9 @@
 
 ```mermaid
 graph LR
-  A[User] --> B(Resonia)
-  B --> C{Resonance?}
-  C -->|Yes| D[Insight]
-  C -->|No|  E[Learn]
+  A[User] --> B(Resonia);
+  B --> C{Resonance?};
+  C -->|Yes| D[Insight];
+  C -->|No| E[Learn];
 ```
 
