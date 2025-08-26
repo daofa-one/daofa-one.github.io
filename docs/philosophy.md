@@ -11,3 +11,12 @@
 - Harmony ↔ cooperative inference and memory consolidation  
 - Simplicity ↔ learnable primitives over complex heuristics
 
+
+```mermaid
+graph LR
+  A[User] --> B(Resonia)
+  B --> C{Resonance?}
+  C -->|Yes| D[Insight]
+  C -->|No|  E[Learn]
+```
+
