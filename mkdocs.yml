@@ -1,0 +1,71 @@
+site_name: Daofa.one
+site_description: "The Way Resonates — philosophy meets technology."
+site_url: https://daofa.one
+repo_url: https://github.com/daofa-one/daofa-one.github.io
+copyright:
+  '© {year} Daofa.one'
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.share
+  palette:
+    # Default (auto-switch with OS)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: purple
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: purple
+  logo: assets/logo.svg           # put a simple mark here (optional)
+  favicon: assets/favicon.png     # 512x512 png
+
+nav:
+  - Home: index.md
+  - Philosophy:
+      - Vision & Tao: philosophy.md
+  - Company:
+      - Team: team.md
+      - Contact: contact.md
+  - Product:
+      - Resonia.one →: https://resonia.one
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/daofa-one
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/
+  generator: false
+
+plugins:
+  - search
+  # - privacy   # uncomment if you add mkdocs-privacy for external embeds
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_css:
+  - assets/extra.css
+
