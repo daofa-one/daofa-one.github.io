@@ -38,7 +38,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode    
-  logo: assets/logo.svg           # put a simple mark here (optional)
+  logo: assets/logo2.svg           # put a simple mark here (optional)
   favicon: assets/favicon.png     # 512x512 png
 
 nav:
