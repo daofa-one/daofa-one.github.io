@@ -253,12 +253,24 @@
   max-width: 100%;
 }
 
-/* Logo sizing */
-.md-header__button.md-logo,
+/* Logo sizing and centering */
+.md-header__button.md-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .md-header__button.md-logo img,
 .md-logo img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+/* Hide logo on mobile */
+@media screen and (max-width: 76.1875em) {
+  .md-header__button.md-logo {
+    display: none;
+  }
 }
 
 /* Optional: glassy header/footer */
