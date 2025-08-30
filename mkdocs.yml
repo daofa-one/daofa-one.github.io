@@ -8,6 +8,7 @@ copyright:
 theme:
   name: material
   language: en
+  custom_dir: docs/overrides
   features:
     - navigation.tabs
     # - navigation.sections
@@ -52,9 +53,6 @@ nav:
       - Resonia.one →: https://resonia.one
 
 extra:
-  analytics:
-    provider: google
-    property: G-DB2R4NDL4V  # Google Analytics 4 property ID
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/daofa-one
