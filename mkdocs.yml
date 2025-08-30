@@ -54,7 +54,7 @@ nav:
 extra:
   analytics:
     provider: google
-    property: G-5F68C3D12Z  # Google Analytics 4 property ID
+    property: G-DB2R4NDL4V  # Google Analytics 4 property ID
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/daofa-one
