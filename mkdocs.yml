@@ -50,6 +50,8 @@ nav:
       - Team: team.md
       - Contact: contact.md
   - Product:
+      - Knoman →: https://chromewebstore.google.com/detail/knoman/pkjiiacndminmhofjeggfkbheibkaeag
+      - Superowser →: https://github.com/daofa-one/superowser
       - Resonia.one →: https://resonia.one
 
 extra:

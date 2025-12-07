@@ -12,7 +12,6 @@ Where Tao meets technology.
 Welcome to **Daofa.one** — a company built on the principle that intelligence **emerges** when systems align with **nature’s law**.
 We explore architectures where **resonance, synchrony, and self-organization** become the engine of intelligence.
 
-> **Tagline**
 > **The Way Resonates.** — Synchrony as the law of intelligence.
 
 ---
