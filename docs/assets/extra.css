@@ -248,6 +248,13 @@
   border-radius: 999px;
 }
 
+/* Medium-sized button variant */
+.md-button-med,
+.md-typeset .md-button-med {
+  padding: 0.4em 1em;
+  font-size: 0.85rem;
+}
+
 /* Mermaid sizing + responsiveness */
 .mermaid {
   max-width: 100%;
